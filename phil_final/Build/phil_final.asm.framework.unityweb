@@ -2259,7 +2259,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Thread_cpp_8499();
+  __GLOBAL__sub_I_Thread_cpp_46051();
  })
 }, {
  func: (function() {
@@ -2275,15 +2275,19 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Assembly_cpp_8783();
+  __GLOBAL__sub_I_Assembly_cpp_46359();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Runtime_cpp_9299();
+  __GLOBAL__sub_I_Runtime_cpp_46951();
  })
 }, {
  func: (function() {
   __GLOBAL__sub_I_MemoryMappedFile_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_Il2CppCodeRegistration_cpp();
  })
 }, {
  func: (function() {
@@ -2300,10 +2304,6 @@ __ATINIT__.push({
 }, {
  func: (function() {
   __GLOBAL__sub_I_Path_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Il2CppCodeRegistration_cpp();
  })
 });
 memoryInitializer = "build.js.mem";
@@ -17733,12 +17733,6 @@ asm["__GLOBAL__sub_I_File_cpp"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real___GLOBAL__sub_I_File_cpp.apply(null, arguments);
 });
-var real___GLOBAL__sub_I_Assembly_cpp_8783 = asm["__GLOBAL__sub_I_Assembly_cpp_8783"];
-asm["__GLOBAL__sub_I_Assembly_cpp_8783"] = (function() {
- assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
- assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real___GLOBAL__sub_I_Assembly_cpp_8783.apply(null, arguments);
-});
 var real___GLOBAL__sub_I_modules_physics2d_1_cpp = asm["__GLOBAL__sub_I_modules_physics2d_1_cpp"];
 asm["__GLOBAL__sub_I_modules_physics2d_1_cpp"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -18038,12 +18032,6 @@ asm["__GLOBAL__sub_I_MetadataCache_cpp"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real___GLOBAL__sub_I_MetadataCache_cpp.apply(null, arguments);
-});
-var real___GLOBAL__sub_I_Thread_cpp_8499 = asm["__GLOBAL__sub_I_Thread_cpp_8499"];
-asm["__GLOBAL__sub_I_Thread_cpp_8499"] = (function() {
- assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
- assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real___GLOBAL__sub_I_Thread_cpp_8499.apply(null, arguments);
 });
 var real___GLOBAL__sub_I_CmEventProfiler_cpp = asm["__GLOBAL__sub_I_CmEventProfiler_cpp"];
 asm["__GLOBAL__sub_I_CmEventProfiler_cpp"] = (function() {
@@ -18417,12 +18405,6 @@ asm["__GLOBAL__sub_I_runtime_camera_renderlayers_0_cpp"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real___GLOBAL__sub_I_runtime_camera_renderlayers_0_cpp.apply(null, arguments);
 });
-var real___GLOBAL__sub_I_Runtime_cpp_9299 = asm["__GLOBAL__sub_I_Runtime_cpp_9299"];
-asm["__GLOBAL__sub_I_Runtime_cpp_9299"] = (function() {
- assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
- assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real___GLOBAL__sub_I_Runtime_cpp_9299.apply(null, arguments);
-});
 var real___GLOBAL__sub_I_runtime_2d_sorting_0_cpp = asm["__GLOBAL__sub_I_runtime_2d_sorting_0_cpp"];
 asm["__GLOBAL__sub_I_runtime_2d_sorting_0_cpp"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -18669,6 +18651,12 @@ asm["__GLOBAL__sub_I_artifacts_generated_webgl_modules_imgui_0_cpp"] = (function
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real___GLOBAL__sub_I_artifacts_generated_webgl_modules_imgui_0_cpp.apply(null, arguments);
 });
+var real___GLOBAL__sub_I_Assembly_cpp_46359 = asm["__GLOBAL__sub_I_Assembly_cpp_46359"];
+asm["__GLOBAL__sub_I_Assembly_cpp_46359"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return real___GLOBAL__sub_I_Assembly_cpp_46359.apply(null, arguments);
+});
 var real__pthread_cond_broadcast = asm["_pthread_cond_broadcast"];
 asm["_pthread_cond_broadcast"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -18722,6 +18710,12 @@ asm["__GLOBAL__sub_I_SwSelfCollision_cpp"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real___GLOBAL__sub_I_SwSelfCollision_cpp.apply(null, arguments);
+});
+var real___GLOBAL__sub_I_Thread_cpp_46051 = asm["__GLOBAL__sub_I_Thread_cpp_46051"];
+asm["__GLOBAL__sub_I_Thread_cpp_46051"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return real___GLOBAL__sub_I_Thread_cpp_46051.apply(null, arguments);
 });
 var real___GLOBAL__sub_I_runtime_dynamics_0_cpp = asm["__GLOBAL__sub_I_runtime_dynamics_0_cpp"];
 asm["__GLOBAL__sub_I_runtime_dynamics_0_cpp"] = (function() {
@@ -18999,6 +18993,12 @@ asm["_i64Add"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real__i64Add.apply(null, arguments);
 });
+var real___GLOBAL__sub_I_Runtime_cpp_46951 = asm["__GLOBAL__sub_I_Runtime_cpp_46951"];
+asm["__GLOBAL__sub_I_Runtime_cpp_46951"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return real___GLOBAL__sub_I_Runtime_cpp_46951.apply(null, arguments);
+});
 var real__pthread_self = asm["_pthread_self"];
 asm["_pthread_self"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -19135,7 +19135,6 @@ var __GLOBAL__sub_I_runtime_misc_3_cpp = Module["__GLOBAL__sub_I_runtime_misc_3_
 var __GLOBAL__sub_I_modules_audio_public_2_cpp = Module["__GLOBAL__sub_I_modules_audio_public_2_cpp"] = asm["__GLOBAL__sub_I_modules_audio_public_2_cpp"];
 var __GLOBAL__sub_I_artifacts_generated_webgl_runtime_7_cpp = Module["__GLOBAL__sub_I_artifacts_generated_webgl_runtime_7_cpp"] = asm["__GLOBAL__sub_I_artifacts_generated_webgl_runtime_7_cpp"];
 var __GLOBAL__sub_I_File_cpp = Module["__GLOBAL__sub_I_File_cpp"] = asm["__GLOBAL__sub_I_File_cpp"];
-var __GLOBAL__sub_I_Assembly_cpp_8783 = Module["__GLOBAL__sub_I_Assembly_cpp_8783"] = asm["__GLOBAL__sub_I_Assembly_cpp_8783"];
 var __GLOBAL__sub_I_modules_physics2d_1_cpp = Module["__GLOBAL__sub_I_modules_physics2d_1_cpp"] = asm["__GLOBAL__sub_I_modules_physics2d_1_cpp"];
 var __GLOBAL__sub_I_platformdependent_webgl_source_0_cpp = Module["__GLOBAL__sub_I_platformdependent_webgl_source_0_cpp"] = asm["__GLOBAL__sub_I_platformdependent_webgl_source_0_cpp"];
 var __GLOBAL__sub_I_runtime_ai_internal_1_cpp = Module["__GLOBAL__sub_I_runtime_ai_internal_1_cpp"] = asm["__GLOBAL__sub_I_runtime_ai_internal_1_cpp"];
@@ -19187,7 +19186,6 @@ var _strstr = Module["_strstr"] = asm["_strstr"];
 var __GLOBAL__sub_I_runtime_cloth_0_cpp = Module["__GLOBAL__sub_I_runtime_cloth_0_cpp"] = asm["__GLOBAL__sub_I_runtime_cloth_0_cpp"];
 var __GLOBAL__sub_I_NativeDelegateMethodCache_cpp = Module["__GLOBAL__sub_I_NativeDelegateMethodCache_cpp"] = asm["__GLOBAL__sub_I_NativeDelegateMethodCache_cpp"];
 var __GLOBAL__sub_I_MetadataCache_cpp = Module["__GLOBAL__sub_I_MetadataCache_cpp"] = asm["__GLOBAL__sub_I_MetadataCache_cpp"];
-var __GLOBAL__sub_I_Thread_cpp_8499 = Module["__GLOBAL__sub_I_Thread_cpp_8499"] = asm["__GLOBAL__sub_I_Thread_cpp_8499"];
 var __GLOBAL__sub_I_CmEventProfiler_cpp = Module["__GLOBAL__sub_I_CmEventProfiler_cpp"] = asm["__GLOBAL__sub_I_CmEventProfiler_cpp"];
 var __GLOBAL__sub_I_Wind_cpp = Module["__GLOBAL__sub_I_Wind_cpp"] = asm["__GLOBAL__sub_I_Wind_cpp"];
 var _memalign = Module["_memalign"] = asm["_memalign"];
@@ -19250,7 +19248,6 @@ var __GLOBAL__sub_I_runtime_graphics_8_cpp = Module["__GLOBAL__sub_I_runtime_gra
 var _pthread_mutex_lock = Module["_pthread_mutex_lock"] = asm["_pthread_mutex_lock"];
 var __GLOBAL__sub_I_runtime_director_core_0_cpp = Module["__GLOBAL__sub_I_runtime_director_core_0_cpp"] = asm["__GLOBAL__sub_I_runtime_director_core_0_cpp"];
 var __GLOBAL__sub_I_runtime_camera_renderlayers_0_cpp = Module["__GLOBAL__sub_I_runtime_camera_renderlayers_0_cpp"] = asm["__GLOBAL__sub_I_runtime_camera_renderlayers_0_cpp"];
-var __GLOBAL__sub_I_Runtime_cpp_9299 = Module["__GLOBAL__sub_I_Runtime_cpp_9299"] = asm["__GLOBAL__sub_I_Runtime_cpp_9299"];
 var __GLOBAL__sub_I_runtime_2d_sorting_0_cpp = Module["__GLOBAL__sub_I_runtime_2d_sorting_0_cpp"] = asm["__GLOBAL__sub_I_runtime_2d_sorting_0_cpp"];
 var __GLOBAL__sub_I_GarbageCollector_cpp = Module["__GLOBAL__sub_I_GarbageCollector_cpp"] = asm["__GLOBAL__sub_I_GarbageCollector_cpp"];
 var __GLOBAL__sub_I_runtime_shaders_shaderimpl_0_cpp = Module["__GLOBAL__sub_I_runtime_shaders_shaderimpl_0_cpp"] = asm["__GLOBAL__sub_I_runtime_shaders_shaderimpl_0_cpp"];
@@ -19294,6 +19291,7 @@ var __GLOBAL__sub_I_runtime_scenemanager_0_cpp = Module["__GLOBAL__sub_I_runtime
 var ___remdi3 = Module["___remdi3"] = asm["___remdi3"];
 var __GLOBAL__sub_I_runtime_ui_0_cpp = Module["__GLOBAL__sub_I_runtime_ui_0_cpp"] = asm["__GLOBAL__sub_I_runtime_ui_0_cpp"];
 var __GLOBAL__sub_I_artifacts_generated_webgl_modules_imgui_0_cpp = Module["__GLOBAL__sub_I_artifacts_generated_webgl_modules_imgui_0_cpp"] = asm["__GLOBAL__sub_I_artifacts_generated_webgl_modules_imgui_0_cpp"];
+var __GLOBAL__sub_I_Assembly_cpp_46359 = Module["__GLOBAL__sub_I_Assembly_cpp_46359"] = asm["__GLOBAL__sub_I_Assembly_cpp_46359"];
 var _pthread_cond_broadcast = Module["_pthread_cond_broadcast"] = asm["_pthread_cond_broadcast"];
 var __GLOBAL__sub_I_Image_cpp = Module["__GLOBAL__sub_I_Image_cpp"] = asm["__GLOBAL__sub_I_Image_cpp"];
 var __GLOBAL__sub_I_GCHandle_cpp = Module["__GLOBAL__sub_I_GCHandle_cpp"] = asm["__GLOBAL__sub_I_GCHandle_cpp"];
@@ -19303,6 +19301,7 @@ var __GLOBAL__sub_I_Path_cpp = Module["__GLOBAL__sub_I_Path_cpp"] = asm["__GLOBA
 var __GLOBAL__sub_I_runtime_particlesystem_modules_0_cpp = Module["__GLOBAL__sub_I_runtime_particlesystem_modules_0_cpp"] = asm["__GLOBAL__sub_I_runtime_particlesystem_modules_0_cpp"];
 var __GLOBAL__sub_I_modules_physics2d_public_0_cpp = Module["__GLOBAL__sub_I_modules_physics2d_public_0_cpp"] = asm["__GLOBAL__sub_I_modules_physics2d_public_0_cpp"];
 var __GLOBAL__sub_I_SwSelfCollision_cpp = Module["__GLOBAL__sub_I_SwSelfCollision_cpp"] = asm["__GLOBAL__sub_I_SwSelfCollision_cpp"];
+var __GLOBAL__sub_I_Thread_cpp_46051 = Module["__GLOBAL__sub_I_Thread_cpp_46051"] = asm["__GLOBAL__sub_I_Thread_cpp_46051"];
 var __GLOBAL__sub_I_runtime_dynamics_0_cpp = Module["__GLOBAL__sub_I_runtime_dynamics_0_cpp"] = asm["__GLOBAL__sub_I_runtime_dynamics_0_cpp"];
 var ___cxx_global_var_init13 = Module["___cxx_global_var_init13"] = asm["___cxx_global_var_init13"];
 var __GLOBAL__sub_I_Il2CppCodeRegistration_cpp = Module["__GLOBAL__sub_I_Il2CppCodeRegistration_cpp"] = asm["__GLOBAL__sub_I_Il2CppCodeRegistration_cpp"];
@@ -19349,6 +19348,7 @@ var __GLOBAL__sub_I_runtime_geometry_2_cpp = Module["__GLOBAL__sub_I_runtime_geo
 var _htonl = Module["_htonl"] = asm["_htonl"];
 var _realloc = Module["_realloc"] = asm["_realloc"];
 var _i64Add = Module["_i64Add"] = asm["_i64Add"];
+var __GLOBAL__sub_I_Runtime_cpp_46951 = Module["__GLOBAL__sub_I_Runtime_cpp_46951"] = asm["__GLOBAL__sub_I_Runtime_cpp_46951"];
 var _pthread_self = Module["_pthread_self"] = asm["_pthread_self"];
 var _pthread_mutex_unlock = Module["_pthread_mutex_unlock"] = asm["_pthread_mutex_unlock"];
 var __GLOBAL__sub_I_runtime_virtualfilesystem_0_cpp = Module["__GLOBAL__sub_I_runtime_virtualfilesystem_0_cpp"] = asm["__GLOBAL__sub_I_runtime_virtualfilesystem_0_cpp"];
